@@ -1,0 +1,24 @@
+{
+  "name": "intro-backend",
+  "version": "1.0.0",
+  "description": "intoduction to backend project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wendy283/intro-backend.git"
+  },
+  "author": "Banadzem Wendy Kinyuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wendy283/intro-backend/issues"
+  },
+  "homepage": "https://github.com/Wendy283/intro-backend#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.0"
+  }
+}
