@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   },
   "homepage": "https://github.com/Wendy283/intro-backend#readme",
   "dependencies": {
+    "dotenv": "^17.3.1",
     "express": "^5.2.1",
-    "mongoose": "^9.2.0"
+    "mongoose": "^9.2.0",
+    "nodemon": "^3.1.11"
   }
 }
